@@ -1,12 +1,5 @@
 {
-	"compileOnSave": false,
-  "buildOnSave": false,
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "rootDir": "app/scripts/",
     "sourceMap": true,
-    "declaration": false,
-    "removeComments": true
   }
 }
