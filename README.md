@@ -6,3 +6,18 @@
 [2]: https://twitter.com/codecov
 [3]: mailto:hello@codecov.io
 [4]: https://github.com/codecov/codecov-bash
+
+Install TSD:
+```shell
+npm install tsd -g
+```
+
+Run npm install:
+```shell
+npm install
+```
+
+Test:
+```shell
+npm test
+```
