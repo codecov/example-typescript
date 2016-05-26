@@ -13,6 +13,8 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+.nyc_output
+coverage.lcov
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -31,3 +33,7 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+typings/
+lib/*.js
+test/*.js
