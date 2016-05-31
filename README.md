@@ -7,8 +7,8 @@
 [3]: mailto:hello@codecov.io
 [4]: https://github.com/codecov/codecov-bash
 
-[![codecov](https://codecov.io/gh/eddiemoore/example-typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/eddiemoore/example-typescript)
-[![Build Status](https://travis-ci.org/eddiemoore/example-typescript.svg?branch=master)](https://travis-ci.org/eddiemoore/example-typescript)
+[![codecov](https://codecov.io/gh/codecov/example-typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/eddiemoore/example-typescript)
+[![Build Status](https://travis-ci.org/codecov/example-typescript.svg?branch=master)](https://travis-ci.org/eddiemoore/example-typescript)
 
 Run npm install:
 ```shell
