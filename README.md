@@ -19,3 +19,15 @@ Test:
 ```shell
 npm test
 ```
+
+##Istanbul Tool
+
+In case you use istanbul instead of nyc to remap your .ts files, make sure your coverage-final.json file get remapped in the posttest
+ task.
+Your posttest task in this case should look like this:
+
+```json
+"posttest": "node_modules/.bin/remap-istanbul -i coverage/report/coverage-final.json -o coverage/report/coverage-final.json",
+```
+
+This configuration can slightly change based on the name and the position of your coverage file.
