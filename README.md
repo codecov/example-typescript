@@ -1,6 +1,6 @@
 # TypeScript Example
-| [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] | IRC #codecov |
-| ----------------------- | ------------- | --------------------- | ------------ |
+| [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] |
+| ----------------------- | ------------- | --------------------- |
 
 [1]: https://codecov.io/
 [2]: https://twitter.com/codecov
