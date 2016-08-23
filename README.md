@@ -1,4 +1,4 @@
-# Typescript Example
+# TypeScript Example
 | [https://codecov.io][1] | [@codecov][2] | [hello@codecov.io][3] | IRC #codecov |
 | ----------------------- | ------------- | --------------------- | ------------ |
 
@@ -18,4 +18,22 @@ npm install
 Test:
 ```shell
 npm test
+```
+
+# Frequently Asked Questions
+
+####❔ No coverage reports are showing up?
+
+Make sure you have enabled source mapping.
+
+`typings install && tsc -p . --sourcemap`
+
+Or in your `tsconfig.json`
+
+```json
+{
+  "compilerOptions": {
+    "sourceMap": true,
+  }
+}
 ```
