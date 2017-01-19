@@ -37,3 +37,5 @@ Or in your `tsconfig.json`
   }
 }
 ```
+
+*That didn't work?* Sorry, looks like you need to use [SitePen/remap-istanbul](https://github.com/SitePen/remap-istanbul).
