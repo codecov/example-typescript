@@ -24,6 +24,9 @@ after_success:
 ```
 nyc report --reporter=json > coverage/coverage.json
 ```
+## Caveats
+### Private Repo
+Repository tokens are required for (a) all private repos, (b) public repos not using Travis-CI, CircleCI or AppVeyor. Find your repository token at Codecov and provide via `codecov --token=:token` or `export CODECOV_TOKEN=":token"`
 
 ## Support
 ### FAQ
@@ -41,8 +44,13 @@ Or in your `tsconfig.json`
 - Q: Is there a Node.js example?<br/>A: Yes, [codecov/example-node](https://github.com/codecov/example-node)
 *That didn't work?* Sorry, looks like you need to use [SitePen/remap-istanbul](https://github.com/SitePen/remap-istanbul).
 
-### Caveats
-#### Private Repo
-Repository tokens are required for (a) all private repos, (b) public repos not using Travis-CI, CircleCI or AppVeyor. Find your repository token at Codecov and provide via `codecov --token=:token` or `export CODECOV_TOKEN=":token"`
+### Contact
+- Intercom (in-app messanger)
+- Email: [support@codecov.io](mailto:support@codecov.io)
+- Slack: [slack.codecov.io](https://slack.codecov.io)
+- [gh/codecov/support](https://github.com/codecov/support)
+
+1. More documentation at https://docs.codecov.io
+2. Configure codecov through the `codecov.yml`  https://docs.codecov.io/docs/codecov-yaml
 
 [1]: https://codecov.io/
