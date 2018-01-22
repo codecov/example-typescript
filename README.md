@@ -16,7 +16,7 @@ language: node_js
 scripts
   - npm install codecov -g
 after_success:
-  - codecov -f coverage/*.json
+  - codecov
 ```
 ### Producing Coverage Reports
 
