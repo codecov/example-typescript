@@ -44,13 +44,10 @@ Or in your `tsconfig.json`
 - Q: Is there a Node.js example?<br/>A: Yes, [codecov/example-node](https://github.com/codecov/example-node)
 *That didn't work?* Sorry, looks like you need to use [SitePen/remap-istanbul](https://github.com/SitePen/remap-istanbul).
 
-### Contact
-- Intercom (in-app messanger)
-- Email: [support@codecov.io](mailto:support@codecov.io)
-- Slack: [slack.codecov.io](https://slack.codecov.io)
-- [gh/codecov/support](https://github.com/codecov/support)
 
 1. More documentation at https://docs.codecov.io
 2. Configure codecov through the `codecov.yml`  https://docs.codecov.io/docs/codecov-yaml
+
+We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
 
 [1]: https://codecov.io/
