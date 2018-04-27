@@ -13,7 +13,7 @@
 Add to your `.travis.yml` file.
 ```yml
 language: node_js
-scripts
+scripts:
   - npm install codecov -g
 after_success:
   - codecov
