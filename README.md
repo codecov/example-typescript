@@ -30,7 +30,7 @@ Repository tokens are required for (a) all private repos, (b) public repos not u
 
 ## Support
 ### FAQ
-- Q: Why no coverage reports showing up?<br/>A:Make sure you have enabled source mapping. `typings install && tsc -p . --sourcemap`
+- Q: Why no coverage reports showing up?<br/>A:Make sure you have enabled source mapping. `tsc -p . --sourcemap`
 
 Or in your `tsconfig.json`
 
