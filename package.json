@@ -4,16 +4,14 @@
   "description": "Codecov Example Typescript",
   "main": "index.js",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "codecov": "^1.0.1",
-    "mocha": "^2.5.3",
-    "nyc": "^6.4.4",
-    "tsd": "^0.6.5",
-    "typescript": "^1.8.10"
+    "chai": "^4.1.2",
+    "codecov": "^3.0.1",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "typescript": "^2.8.3"
   },
   "scripts": {
-    "postinstall": "tsd install",
-    "pretest": "tsc test/*.ts --module commonjs --sourcemap",
+    "pretest": "tsc -p .",
     "test": "nyc mocha",
     "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
   },
@@ -21,17 +19,14 @@
     "type": "git",
     "url": "git+https://github.com/eddiemoore/example-typescript.git"
   },
-  "keywords": [
-    "codecov",
-    "typescript",
-    "example",
-    "code",
-    "coverage"
-  ],
+  "keywords": ["codecov", "typescript", "example", "code", "coverage"],
   "author": "Ed Moore <eddie.moore@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eddiemoore/example-typescript/issues"
   },
-  "homepage": "https://github.com/eddiemoore/example-typescript#readme"
+  "homepage": "https://github.com/eddiemoore/example-typescript#readme",
+  "dependencies": {
+    "@types/mocha": "5.2.0"
+  }
 }
