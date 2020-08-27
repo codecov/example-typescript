@@ -7,6 +7,7 @@
 
 [![codecov](https://codecov.io/gh/codecov/example-typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/example-typescript)
 [![Build Status](https://travis-ci.org/codecov/example-typescript.svg?branch=master)](https://travis-ci.org/codecov/example-typescript)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-typescript.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-typescript?ref=badge_shield)
 
 ## Guide
 ### Travis Setup
@@ -51,3 +52,7 @@ Or in your `tsconfig.json`
 We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
 
 [1]: https://codecov.io/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-typescript.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-typescript?ref=badge_large)
