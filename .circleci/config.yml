@@ -12,7 +12,7 @@ jobs:
           name: Install dependencies
           command: npm install
       - run:
-          name: Run tests and collect coverage
+          name: Run tests and collect coveragee
           command: npm run test
       - codecov/upload
 
