@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-typescript": "^7.24.1",
     "jest": "^29.7.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "scripts": {
     "test": "jest"
